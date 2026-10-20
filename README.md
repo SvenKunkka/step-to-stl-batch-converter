@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # STEP to STL Batch Converter
 
 ## English Overview
@@ -73,3 +77,30 @@ npm run tauri:build
 - `desktop/`：Tauri 桌面版前端入口
 - `src-tauri/`：macOS 桌面应用配置与 Rust 入口
 - `.openai/hosting.json`：OpenAI Workspace Sites 托管配置
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+本地处理的 STEP/STP 批量转二进制 STL 工具，提供浏览器与 macOS 桌面入口，支持网格精度、单位、队列状态、取消重试及 ZIP 导出，CAD 文件无需上传服务器。
+
+**使用入口：** 浏览器开发运行 `npm install`、`npm run dev`；桌面开发使用 `npm run tauri:dev`，打包使用 `npm run tauri:build`。
+
+**范围说明：** 需要 Node.js 22.13 或更新版本；桌面构建另需 Rust 与 Tauri 的 macOS 系统依赖。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A local-first batch converter from STEP/STP to binary STL, available in the browser and on macOS, with mesh tolerances, units, queue status, cancellation, retry and ZIP export. CAD files do not need to be uploaded.
+
+**Getting started:** Run `npm install` and `npm run dev` for browser development; use `npm run tauri:dev` for desktop development and `npm run tauri:build` for packaging.
+
+**Scope:** Requires Node.js 22.13 or newer. Desktop builds additionally require Rust and Tauri’s macOS system dependencies.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
